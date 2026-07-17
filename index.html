@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PakNodes - Premium Minecraft Hosting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: white; scroll-behavior: smooth; }
+        /* FAQ Animation */
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-900 border-b border-gray-800 p-4 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+                PakNodes
+            </div>
+            <div class="space-x-6 hidden md:block text-gray-300 font-semibold">
+                <a href="#" class="hover:text-white transition">Home</a>
+                <a href="#hardware" class="hover:text-white transition">Hardware</a>
+                <a href="#plans" class="hover:text-white transition">Plans</a>
+                <a href="#faq" class="hover:text-white transition">FAQ</a>
+            </div>
+            <div>
+                <a href="#" class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2 rounded-lg font-bold transition">Client Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Same as before) -->
+    <header class="text-center py-24 px-4 bg-gradient-to-b from-gray-900 to-[#0f172a]">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6">Level Up Your <span class="text-green-500">Minecraft</span> Server</h1>
+        <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">Instant setup, 99.9% uptime, and 24/7 dedicated support. Start building your dream community today.</p>
+        <div class="space-x-4">
+            <a href="#plans" class="bg-green-500 hover:bg-green-400 text-black px-8 py-3 rounded-full font-bold text-lg transition">View Plans</a>
+            <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-full font-bold text-lg border border-gray-600 transition">System Status 🟢</a>
+        </div>
+    </header>
+
+    <!-- System Specs / Hardware (Same as before) -->
+    <section id="hardware" class="py-16 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold mb-4">Our <span class="text-green-400">Hardware</span></h2>
+            <p class="text-gray-400">Reliable and optimized dedicated hardware for smooth gameplay.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+            <div class="bg-gray-800 p-6 rounded-2xl border border-gray-700"><h3 class="text-xl font-bold mb-2">Intel Core i5</h3><p class="text-gray-400 text-sm">Stable Performance</p></div>
+            <div class="bg-gray-800 p-6 rounded-2xl border border-gray-700"><h3 class="text-xl font-bold mb-2">DDR3 RAM</h3><p class="text-gray-400 text-sm">Optimized for gaming</p></div>
+            <div class="bg-gray-800 p-6 rounded-2xl border border-gray-700"><h3 class="text-xl font-bold mb-2">Fast SSD + HDD</h3><p class="text-gray-400 text-sm">Fast loads & backups</p></div>
+            <div class="bg-gray-800 p-6 rounded-2xl border border-gray-700"><h3 class="text-xl font-bold mb-2">DDoS Protection</h3><p class="text-gray-400 text-sm">Stay online safely</p></div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans (Same as before) -->
+    <section id="plans" class="py-20 px-4 max-w-7xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-16">Choose Your <span class="text-blue-400">Plan</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <!-- Dirt Plan -->
+            <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700">
+                <h3 class="text-2xl font-bold text-[#8B4513] mb-2">Dirt Plan</h3>
+                <div class="text-4xl font-extrabold mb-6">500 <span class="text-lg text-gray-400 font-normal">PKR/mo</span></div>
+                <ul class="text-gray-300 space-y-4 mb-8 text-left"><li>✔️ 1 GB RAM</li><li>✔️ 10 GB SSD</li><li>✔️ Full Panel Access</li></ul>
+                <a href="#" class="block w-full bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 rounded-xl transition">Order Now</a>
+            </div>
+            <!-- Iron Plan -->
+            <div class="bg-gray-800 rounded-2xl p-8 border-2 border-blue-500 relative transform scale-105 shadow-2xl shadow-blue-500/20">
+                <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 text-white px-4 py-1 rounded-full text-sm font-bold">MOST POPULAR</div>
+                <h3 class="text-2xl font-bold text-gray-300 mb-2">Iron Plan</h3>
+                <div class="text-4xl font-extrabold mb-6">1000 <span class="text-lg text-gray-400 font-normal">PKR/mo</span></div>
+                <ul class="text-gray-300 space-y-4 mb-8 text-left"><li>✔️ 2 GB RAM</li><li>✔️ 20 GB SSD</li><li>✔️ Full Panel Access</li></ul>
+                <a href="#" class="block w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 rounded-xl transition">Order Now</a>
+            </div>
+            <!-- Diamond Plan -->
+            <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700">
+                <h3 class="text-2xl font-bold text-[#00FFFF] mb-2">Diamond Plan</h3>
+                <div class="text-4xl font-extrabold mb-6">2000 <span class="text-lg text-gray-400 font-normal">PKR/mo</span></div>
+                <ul class="text-gray-300 space-y-4 mb-8 text-left"><li>✔️ 4 GB RAM</li><li>✔️ 40 GB SSD</li><li>✔️ Priority Support</li></ul>
+                <a href="#" class="block w-full bg-[#00FFFF] hover:bg-[#00e6e6] text-black font-bold py-3 rounded-xl transition">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: FAQ Section -->
+    <section id="faq" class="py-16 px-4 max-w-4xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-10">Frequently Asked <span class="text-green-400">Questions</span></h2>
+        <div class="space-y-4">
+            <details class="bg-gray-800 rounded-xl border border-gray-700 p-6 group cursor-pointer">
+                <summary class="font-bold text-lg flex justify-between items-center">
+                    How long does it take to setup my server?
+                    <span class="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p class="text-gray-400 mt-4">Setup is completely instant! As soon as your payment is confirmed, your server is created automatically and details are sent to your email.</p>
+            </details>
+            <details class="bg-gray-800 rounded-xl border border-gray-700 p-6 group cursor-pointer">
+                <summary class="font-bold text-lg flex justify-between items-center">
+                    Can I upgrade my plan later?
+                    <span class="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p class="text-gray-400 mt-4">Yes, you can upgrade or downgrade your RAM and storage at any time through our client area without losing any of your server data.</p>
+            </details>
+            <details class="bg-gray-800 rounded-xl border border-gray-700 p-6 group cursor-pointer">
+                <summary class="font-bold text-lg flex justify-between items-center">
+                    Do you support mods and plugins?
+                    <span class="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p class="text-gray-400 mt-4">Absolutely! You have full access to your server files via our powerful Pterodactyl panel and SFTP. You can install Forge, Fabric, Paper, Spigot, and any plugins you want.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- NEW: Professional Multi-Column Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 pt-16 pb-8 px-4 mt-10">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+            <div>
+                <h3 class="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 mb-4">PakNodes</h3>
+                <p class="text-gray-400 text-sm">Providing reliable and affordable Minecraft hosting solutions for gamers, by gamers.</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-4">Quick Links</h4>
+                <ul class="text-gray-400 space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white transition">Client Area</a></li>
+                    <li><a href="#" class="hover:text-white transition">Knowledgebase</a></li>
+                    <li><a href="#" class="hover:text-white transition">System Status</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-4">Legal</h4>
+                <ul class="text-gray-400 space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white transition">Terms of Service</a></li>
+                    <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-white transition">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-4">Contact Us</h4>
+                <ul class="text-gray-400 space-y-2 text-sm">
+                    <li>Discord: <a href="#" class="text-blue-400 hover:underline">Join our Server</a></li>
+                    <li>Email: support@paknodes.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center text-gray-600 text-xs border-t border-gray-800 pt-8">
+            <p>&copy; 2023 PakNodes Hosting. All rights reserved.</p>
+            <p class="mt-2">Not affiliated with Mojang AB or Microsoft.</p>
+        </div>
+    </footer>
+
+    <!-- LIVE CHAT SCRIPT WILL GO HERE -->
+
+</body>
+</html>
